@@ -34,7 +34,7 @@
                     <strong>My Blog</strong><br>
                     Roganskaya ave, 150<br>
                     Kharkov, Ukraine<br>
-                    <abbr title="Phone">Phone:</abbr> +38(063) 114-38-40
+                   Phone: +38(063) 114-38-40
                 </address>
             </div>
         </div>

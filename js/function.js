@@ -3,6 +3,7 @@ function validateEmail(email) {
     return !re.test(email);
 }
 jQuery(document).ready(function ($) {
+    $(".fancybox").fancybox();
     $('#contact_form_submit').click(function () {
         var boolArr = [], bool = false, i = 0;
         $('.contact_form input').each(function () {
