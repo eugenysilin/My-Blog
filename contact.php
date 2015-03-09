@@ -1,64 +1,45 @@
-<!doctype html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blog | contact us</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <script src="js/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-</head>
-<body>
-<div class="container-fluid">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li<?= 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] == 'http://blog.my/index.php' ? ' class="active"' : ''?>>
-                        <a href="index.php">
-                            Home
-                        </a>
-                    </li>
-                    <li<?= 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] == 'http://blog.my/about.php' ? ' class="active"' : ''?>>
-                        <a href="about.php">About Us</a>
-                    </li>
-                    <li<?= 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] == 'http://blog.my/contact.php' ? ' class="active"' : ''?>>
-                        <a href="contact.php">Contact Us</a>
-                    </li>
-                </ul>
-                <form class="navbar-form navbar-left site_search" role="search">
+<? include('header.php') ?>
+<div class="container content">
+    <div class="row page-title">
+        <h2>Contact Us</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row">
+                <h4>You can contact our manager.</h4>
+            </div>
+            <div class="row">
+                <form method="post" action="" class="contact_form">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
+                        <label for="yourName">Your Name</label>
+                        <input type="text" class="form-control" id="yourName" placeholder="Your Name">
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <div class="form-group">
+                        <label for="yourEmail">Your Email</label>
+                        <input type="email" class="form-control" id="yourEmail" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="yourMessage">Your Message</label>
+                        <textarea class="form-control" id="yourMessage"
+                                  placeholder="Your Message" rows="7"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-default" id="contact_form_submit" value="Submit">
                 </form>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <div class="row">
-        <div class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore harum nesciunt
-            similique. Esse et magni necessitatibus optio quis! Accusamus commodi cumque doloribus est laudantium
-            necessitatibus nostrum praesentium rem rerum totam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore harum nesciunt
-            similique. Esse et magni necessitatibus optio quis! Accusamus commodi cumque doloribus est laudantium
-            necessitatibus nostrum praesentium rem rerum totam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore harum nesciunt
-            similique. Esse et magni necessitatibus optio quis! Accusamus commodi cumque doloribus est laudantium
-            necessitatibus nostrum praesentium rem rerum totam.
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <div class="block_address">
+                <address>
+                    <strong>My Blog</strong><br>
+                    Roganskaya ave, 150<br>
+                    Kharkov, Ukraine<br>
+                    <abbr title="Phone">Phone:</abbr> +38(063) 114-38-40
+                </address>
+            </div>
         </div>
-
     </div>
-
+</div>
 </div>
 </body>
 </html>

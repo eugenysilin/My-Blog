@@ -1,5 +1,50 @@
 @media (min-width: 768px) {
+    p {
+        text-indent: 20px; /* Отступ первой строки в пикселах */
+    }
+
     .navbar-left {
         float: right !important;
+    }
+
+    .page {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .page-title {
+        background-color: #e7e7e7;
+        padding: 5px 0;
+        margin-bottom: 15px;
+    }
+
+    .page-title h2 {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .block_address {
+        margin-top: 40px;
+    }
+
+    .row-blog {
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    }
+
+    .row-blog:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .row-blog h3 a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .nav-pagination {
+        text-align: center;
     }
 }

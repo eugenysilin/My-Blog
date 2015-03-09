@@ -1,9 +1,14 @@
 <? include('header.php') ?>
 <div class="container content">
     <div class="row page-title">
-        <h2>Home</h2>
+        <h2>Blog</h2>
     </div>
-    <div class="row">
+<!--    <div class="row">-->
+<!--        Lorem ipsum dolor sit amet-->
+<!--    </div>-->
+    <div class="row row-blog">
+        <h3><a href="#">Post title</a></h3>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget arcu fringilla, ornare urna vitae,
             vulputate libero. Nam commodo sapien mi, non iaculis turpis consequat eget. Donec sit amet dolor nulla.
             Fusce a posuere felis, in malesuada tellus. Nam nec convallis lorem. Nam porttitor blandit condimentum.
@@ -11,6 +16,9 @@
             amet erat ut, sagittis consequat sapien. Cras placerat, est non tristique accumsan, lectus libero
             dignissim lorem, sit amet elementum velit libero non nunc. Duis sed lobortis eros, nec congue
             libero.</p>
+    </div>
+    <div class="row row-blog">
+        <h3><a href="#">Post title</a></h3>
 
         <p>Sed venenatis diam odio, sed consequat elit porttitor vitae. In egestas maximus est eget varius. Aenean
             risus massa, pulvinar quis consequat non, faucibus nec ligula. Nulla facilisi. Proin eu eros enim. In id
@@ -19,6 +27,9 @@
             dignissim dui. Nullam dolor est, pulvinar eget mi molestie, porta porttitor ante. Donec dapibus accumsan
             ligula, non euismod mi placerat vel. Proin placerat nisi id euismod dapibus. Sed ultricies congue arcu,
             non hendrerit justo accumsan ac.</p>
+    </div>
+    <div class="row row-blog">
+        <h3><a href="#">Post title</a></h3>
 
         <p>Sed lectus lectus, malesuada quis quam sed, porta malesuada est. Maecenas tortor arcu, aliquam non
             porttitor in, feugiat ac felis. Nunc mollis tellus leo, eu blandit sapien venenatis et. Integer eget
@@ -28,6 +39,9 @@
             urna ut turpis imperdiet, et molestie arcu posuere. Maecenas a sem quis justo facilisis tempus in vel
             ipsum. Pellentesque finibus nulla in elit scelerisque, ac posuere magna aliquam. Nullam sit amet
             elementum orci, non aliquam augue. Maecenas tempor velit eros, id porttitor diam varius sed.</p>
+    </div>
+    <div class="row row-blog">
+        <h3><a href="#">Post title</a></h3>
 
         <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer nec
             sagittis neque. Proin imperdiet, quam a porta iaculis, lectus libero rhoncus libero, ac semper nulla
@@ -36,14 +50,27 @@
             in. In nec mauris nisl. Nullam facilisis neque eu sapien pretium, vitae pharetra risus lacinia. Ut
             ullamcorper dolor sit amet nisl fermentum sollicitudin. Integer lacinia odio in tortor interdum egestas.
             Sed sed rutrum nibh, sed mattis nulla.</p>
+    </div>
+    <div class="row row-blog">
+        <h3><a href="#">Post title</a></h3>
 
         <p>Praesent eget arcu lobortis, dignissim dui vitae, molestie nulla. Nam porttitor vehicula purus, sed
             volutpat quam laoreet at. Ut ornare felis sed neque finibus, a ultrices dolor tincidunt. Quisque eu
             mauris massa. Donec sed venenatis massa. Sed hendrerit urna a tempor vulputate. Nulla sapien leo,
             ullamcorper vel magna a, pretium tempus massa. Sed consequat est massa, et commodo lacus rutrum ac.
             Phasellus ut arcu augue. Suspendisse eleifend sagittis elit, eu finibus mi sollicitudin id.</p>
-
     </div>
+    <nav class="nav-pagination">
+        <ul class="pagination">
+            <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+        </ul>
+    </nav>
 </div>
 </div>
 </body>
