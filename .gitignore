@@ -1,3 +1,6 @@
 .idea
 cache/
 test.php
+Gruntfile.js
+package.json
+node_modules/

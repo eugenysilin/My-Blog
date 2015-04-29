@@ -7178,7 +7178,8 @@ button.close {
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('fancybox_sprite.png');
+	/*background-image: url('fancybox_sprite.png');*/
+	background-image: url('fancybox/source/fancybox_sprite.png');
 }
 
 #fancybox-loading {
@@ -7216,7 +7217,8 @@ button.close {
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url('blank.gif'); /* helps IE */
+	/*background: transparent url('blank.gif'); *//* helps IE */
+	background: transparent url('fancybox/source/blank.gif'); /* helps IE */
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
@@ -7286,7 +7288,8 @@ button.close {
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url('fancybox_overlay.png');
+	/*background: url('fancybox_overlay.png');*/
+	background: url('fancybox/source/fancybox_overlay.png');
 }
 
 .fancybox-overlay-fixed {
