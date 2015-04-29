@@ -14,87 +14,87 @@
     </div>
     <div class="row">
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/Prusanky-Nechory.jpg"
+            <a href="img/Prusanky-Nechory.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/Prusanky-Nechory.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/Prusanky-Nechory.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/nechory02.jpg"
+            <a href="img/nechory02.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/nechory02.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/nechory02.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/full_2e3693_f_normalFile22-nechory3.jpg"
+            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/full_2e3693_f_normalFile22-nechory3.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/full_2e3693_f_normalFile22-nechory3.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/1325331-img-inzerce-vinarsky-fond.jpg"
+            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/1325331-img-inzerce-vinarsky-fond.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/1325331-img-inzerce-vinarsky-fond.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/Prusanky-Nechory.jpg"
+            <a href="img/Prusanky-Nechory.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/Prusanky-Nechory.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/Prusanky-Nechory.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/nechory02.jpg"
+            <a href="img/nechory02.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/nechory02.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/nechory02.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/full_2e3693_f_normalFile22-nechory3.jpg"
+            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/full_2e3693_f_normalFile22-nechory3.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/full_2e3693_f_normalFile22-nechory3.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/1325331-img-inzerce-vinarsky-fond.jpg"
+            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/1325331-img-inzerce-vinarsky-fond.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/1325331-img-inzerce-vinarsky-fond.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/Prusanky-Nechory.jpg"
+            <a href="img/Prusanky-Nechory.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/Prusanky-Nechory.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/Prusanky-Nechory.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/nechory02.jpg"
+            <a href="img/nechory02.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/nechory02.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/nechory02.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/full_2e3693_f_normalFile22-nechory3.jpg"
+            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/full_2e3693_f_normalFile22-nechory3.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/full_2e3693_f_normalFile22-nechory3.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.my/img/1325331-img-inzerce-vinarsky-fond.jpg"
+            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="http://blog.my/resize.php?src=http://blog.my/img/1325331-img-inzerce-vinarsky-fond.jpg&w=203&h=140&zc=1&a=t">
+                     src="resize.php?src=img/1325331-img-inzerce-vinarsky-fond.jpg&w=203&h=140&zc=1&a=t">
             </a>
         </div>
     </div>
