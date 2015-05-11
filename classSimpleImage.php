@@ -5,6 +5,7 @@ class SimpleImage
 
     var $image;
     var $image_type;
+    var $image_name;
 
     function load($filename)
     {
@@ -17,6 +18,7 @@ class SimpleImage
         } elseif ($this->image_type == IMAGETYPE_PNG) {
             $this->image = imagecreatefrompng($filename);
         }
+        $this->image_name = $filename;
     }
 
     function save($filename, $image_type = IMAGETYPE_JPEG, $compression = 75, $permissions = null)
@@ -93,5 +95,20 @@ class SimpleImage
             $this->getHeight()
         );
         $this->image = $new_image;
+    }
+
+    function getImageType()
+    {
+        return substr(strrchr($this->image_name, '.'), 1);
+    }
+
+    function getImageNameWithoutType()
+    {
+        $pos = strrpos($this->image_name, '.');
+        if ($pos > 0) {
+            return substr($this->image_name, 0, $pos);
+        } else {
+            return $this->image_name;
+        }
     }
 }

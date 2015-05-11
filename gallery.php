@@ -1,19 +1,21 @@
 <? include('header.php') ?>
 <?
 include('classSimpleImage.php');
-$image = new SimpleImage();
-$image->load('img/Prusanky-Nechory.jpg');
-$image->resize(203, 140);
-$image->save('img/Prusanky-Nechory-203*140.jpg');
-$image->load('img/nechory02.jpg');
-$image->resize(203, 140);
-$image->save('img/nechory02-203*140.jpg');
-$image->load('img/full_2e3693_f_normalFile22-nechory3.jpg');
-$image->resize(203, 140);
-$image->save('img/full_2e3693_f_normalFile22-nechory3-203*140.jpg');
-$image->load('img/1325331-img-inzerce-vinarsky-fond.jpg');
-$image->resize(203, 140);
-$image->save('img/1325331-img-inzerce-vinarsky-fond-203*140.jpg');
+$simple_image = new SimpleImage();
+$images       = array(
+    'img/Prusanky-Nechory.jpg',
+    'img/nechory02.jpg',
+    'img/full_2e3693_f_normalFile22-nechory3.jpg',
+    'img/1325331-img-inzerce-vinarsky-fond.jpg',
+    'img/Prusanky-Nechory.jpg',
+    'img/nechory02.jpg',
+    'img/full_2e3693_f_normalFile22-nechory3.jpg',
+    'img/1325331-img-inzerce-vinarsky-fond.jpg',
+    'img/Prusanky-Nechory.jpg',
+    'img/nechory02.jpg',
+    'img/full_2e3693_f_normalFile22-nechory3.jpg',
+    'img/1325331-img-inzerce-vinarsky-fond.jpg'
+);
 ?>
 <div class="container content">
     <div class="row page-title">
@@ -29,96 +31,22 @@ $image->save('img/1325331-img-inzerce-vinarsky-fond-203*140.jpg');
             libero.</p>
     </div>
     <div class="row">
-        <div class="col-xs-6 col-md-3">
-            <a href="img/Prusanky-Nechory.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/Prusanky-Nechory-203*140.jpg?v=1" width="203" height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/nechory02.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/nechory02-203*140.jpg?v=1" width="203" height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/full_2e3693_f_normalFile22-nechory3-203*140.jpg?v=1" width="203"
-                     height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/1325331-img-inzerce-vinarsky-fond-203*140.jpg?v=1" width="203"
-                     height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/Prusanky-Nechory.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/Prusanky-Nechory-203*140.jpg?v=1" width="203" height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/nechory02.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/nechory02-203*140.jpg?v=1" width="203" height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/full_2e3693_f_normalFile22-nechory3-203*140.jpg?v=1" width="203"
-                     height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/1325331-img-inzerce-vinarsky-fond-203*140.jpg?v=1" width="203"
-                     height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/Prusanky-Nechory.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/Prusanky-Nechory-203*140.jpg?v=1" width="203" height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/nechory02.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/nechory02-203*140.jpg?v=1" width="203" height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/full_2e3693_f_normalFile22-nechory3-203*140.jpg?v=1" width="203"
-                     height="140">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg?v=1"
-               class="thumbnail fancybox" rel="group">
-                <img alt=""
-                     src="img/1325331-img-inzerce-vinarsky-fond-203*140.jpg?v=1" width="203"
-                     height="140">
-            </a>
-        </div>
+        <? foreach ($images as $image) {
+            $simple_image->load($image);
+            $simple_image->resize(203, 140);
+            $image_name        = $simple_image->getImageNameWithoutType();
+            $image_type        = $simple_image->getImageType();
+            $resize_image_name = $image_name . '-203*140.' . $image_type;
+            $simple_image->save($resize_image_name);
+            ?>
+            <div class="col-xs-6 col-md-3">
+                <a href="<?= $image ?>?v=1"
+                   class="thumbnail fancybox" rel="group">
+                    <img alt=""
+                         src="<?= $resize_image_name ?>?v=1" width="203" height="140">
+                </a>
+            </div>
+        <? } ?>
     </div>
     <nav class="nav-pagination">
         <ul class="pagination">
