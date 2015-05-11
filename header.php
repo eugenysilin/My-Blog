@@ -1,3 +1,4 @@
+<? header('Content-Type: text/html; charset=utf-8') ?>
 <!doctype html>
 <html lang="en-US">
 <head>
@@ -5,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blog</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="style.min.css">
-    <script type="text/javascript" src="script.min.js"></script>
+    <link rel="stylesheet" href="style.min.css?v=1">
+    <script async="async" type="text/javascript" src="script.min.js?v=1"></script>
 </head>
 <body>
 <div class="container-fluid page">

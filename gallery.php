@@ -1,4 +1,20 @@
 <? include('header.php') ?>
+<?
+include('classSimpleImage.php');
+$image = new SimpleImage();
+$image->load('img/Prusanky-Nechory.jpg');
+$image->resize(203, 140);
+$image->save('img/Prusanky-Nechory-203*140.jpg');
+$image->load('img/nechory02.jpg');
+$image->resize(203, 140);
+$image->save('img/nechory02-203*140.jpg');
+$image->load('img/full_2e3693_f_normalFile22-nechory3.jpg');
+$image->resize(203, 140);
+$image->save('img/full_2e3693_f_normalFile22-nechory3-203*140.jpg');
+$image->load('img/1325331-img-inzerce-vinarsky-fond.jpg');
+$image->resize(203, 140);
+$image->save('img/1325331-img-inzerce-vinarsky-fond-203*140.jpg');
+?>
 <div class="container content">
     <div class="row page-title">
         <h2>Gallery</h2>
@@ -14,87 +30,93 @@
     </div>
     <div class="row">
         <div class="col-xs-6 col-md-3">
-            <a href="img/Prusanky-Nechory.jpg"
+            <a href="img/Prusanky-Nechory.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/Prusanky-Nechory.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/Prusanky-Nechory-203*140.jpg?v=1" width="203" height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/nechory02.jpg"
+            <a href="img/nechory02.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/nechory02.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/nechory02-203*140.jpg?v=1" width="203" height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg"
+            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/full_2e3693_f_normalFile22-nechory3.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/full_2e3693_f_normalFile22-nechory3-203*140.jpg?v=1" width="203"
+                     height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg"
+            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/1325331-img-inzerce-vinarsky-fond.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/1325331-img-inzerce-vinarsky-fond-203*140.jpg?v=1" width="203"
+                     height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/Prusanky-Nechory.jpg"
+            <a href="img/Prusanky-Nechory.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/Prusanky-Nechory.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/Prusanky-Nechory-203*140.jpg?v=1" width="203" height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/nechory02.jpg"
+            <a href="img/nechory02.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/nechory02.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/nechory02-203*140.jpg?v=1" width="203" height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg"
+            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/full_2e3693_f_normalFile22-nechory3.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/full_2e3693_f_normalFile22-nechory3-203*140.jpg?v=1" width="203"
+                     height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg"
+            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/1325331-img-inzerce-vinarsky-fond.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/1325331-img-inzerce-vinarsky-fond-203*140.jpg?v=1" width="203"
+                     height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/Prusanky-Nechory.jpg"
+            <a href="img/Prusanky-Nechory.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/Prusanky-Nechory.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/Prusanky-Nechory-203*140.jpg?v=1" width="203" height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/nechory02.jpg"
+            <a href="img/nechory02.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/nechory02.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/nechory02-203*140.jpg?v=1" width="203" height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg"
+            <a href="img/full_2e3693_f_normalFile22-nechory3.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/full_2e3693_f_normalFile22-nechory3.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/full_2e3693_f_normalFile22-nechory3-203*140.jpg?v=1" width="203"
+                     height="140">
             </a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg"
+            <a href="img/1325331-img-inzerce-vinarsky-fond.jpg?v=1"
                class="thumbnail fancybox" rel="group">
                 <img alt=""
-                     src="resize.php?src=img/1325331-img-inzerce-vinarsky-fond.jpg&w=203&h=140&zc=1&a=t">
+                     src="img/1325331-img-inzerce-vinarsky-fond-203*140.jpg?v=1" width="203"
+                     height="140">
             </a>
         </div>
     </div>
