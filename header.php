@@ -30,30 +30,25 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li<?=
-                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/index.php'
-                            ? ' class="active"' : '' ?>>
+                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/index.php' ? ' class="active"' : '' ?>>
                             <a href="index.php">
                                 Home
                             </a>
                         </li>
                         <li<?=
-                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/about.php'
-                            ? ' class="active"' : '' ?>>
+                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/about.php' ? ' class="active"' : '' ?>>
                             <a href="about.php">About Us</a>
                         </li>
                         <li<?=
-                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/blog.php'
-                            ? ' class="active"' : '' ?>>
+                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/blog.php' ? ' class="active"' : '' ?>>
                             <a href="blog.php">Blog</a>
                         </li>
                         <li<?=
-                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/gallery.php'
-                            ? ' class="active"' : '' ?>>
+                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/gallery.php' ? ' class="active"' : '' ?>>
                             <a href="gallery.php">Gallery</a>
                         </li>
                         <li<?=
-                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/contact.php'
-                            ? ' class="active"' : '' ?>>
+                        'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] == 'http://blog.my/contact.php' ? ' class="active"' : '' ?>>
                             <a href="contact.php">Contact Us</a>
                         </li>
                     </ul>
