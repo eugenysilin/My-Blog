@@ -2,7 +2,7 @@
 <?
 include('classSimpleImage.php');
 $simple_image = new SimpleImage();
-$images       = array(
+$images       = [
     'img/Prusanky-Nechory.jpg',
     'img/nechory02.jpg',
     'img/full_2e3693_f_normalFile22-nechory3.jpg',
@@ -15,7 +15,7 @@ $images       = array(
     'img/nechory02.jpg',
     'img/full_2e3693_f_normalFile22-nechory3.jpg',
     'img/1325331-img-inzerce-vinarsky-fond.jpg'
-);
+];
 ?>
 <div class="container content">
     <div class="row page-title">
@@ -40,10 +40,10 @@ $images       = array(
             $simple_image->save($resize_image_name);
             ?>
             <div class="col-xs-6 col-md-3">
-                <a href="<?= $image ?>?v=1"
+                <a href="<?= $image ?>"
                    class="thumbnail fancybox" rel="group">
                     <img alt=""
-                         src="<?= $resize_image_name ?>?v=1" width="203" height="140">
+                         src="<?= $resize_image_name ?>" width="203" height="140">
                 </a>
             </div>
         <? } ?>

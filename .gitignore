@@ -1,6 +1,9 @@
 .idea
-cache/
-test.php
+cache
 Gruntfile.js
 package.json
-node_modules/
+node_modules
+phpmyadmin
+logs
+rozetka.txt
+text_backup.js

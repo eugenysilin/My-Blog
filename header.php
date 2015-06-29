@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blog</title>
+    <link rel="icon" type="image/png" href="favicon.jpg">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="style.min.css?v=1">
-    <script async="async" type="text/javascript" src="script.min.js?v=1"></script>
+    <link rel="stylesheet" href="style.min.css">
+    <script async="async" type="text/javascript" src="script.min.js"></script>
 </head>
 <body>
 <div class="container-fluid page">
